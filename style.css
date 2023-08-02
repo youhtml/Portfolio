@@ -15,7 +15,6 @@ body{
 main{
     margin-top: 100px;
     top: 2rem;
-    height: 600px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -43,6 +42,7 @@ p{
     font-style: italic;
 }
 .test {
+    margin-top: 250px;
     width: 80%;
     display: flex;
     justify-content: space-around;
