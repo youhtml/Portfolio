@@ -10,7 +10,9 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-
+    background-blend-mode: darken;
+    /* background: linear-gradient(rgba(146, 142, 142, 0.7), rgb(240, 240, 240));     */
+    
 }
 main{
     margin-top: 100px;
@@ -28,11 +30,12 @@ main{
     justify-content: center;
     color: rgb(248, 248, 248);
     text-shadow: 2px 1px black;
-    
+    font-weight: bold;
     
 }
 h1 {
     font-size: 3.5rem;
+    
 }
 h3{
     font-size: 2.5rem;
@@ -42,7 +45,7 @@ p{
     font-style: italic;
 }
 .test {
-    margin-top: 250px;
+    margin-top: 150px;
     width: 80%;
     display: flex;
     justify-content: space-around;
@@ -64,12 +67,12 @@ footer{
     text-align: center;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     width: 100%;
-    min-height: 50px;
+    height: 40px;
     background-color: #212529;
     color: aliceblue;
     position: absolute;
     bottom: 0;
-    padding: 10px;
+    padding: auto;
 }
 #last{
     font-size: 1rem;
